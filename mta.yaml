@@ -1,0 +1,12 @@
+_schema-version: 1.0.2
+ID: MetaLink_new_version
+version: 1.0.2
+
+modules:
+
+ - name: module2
+   type: java
+   path: j2/
+
+   parameters:
+     buildpack: https://github.com/cloudfoundry/java-buildpack.git
